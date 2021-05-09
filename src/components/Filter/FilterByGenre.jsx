@@ -39,7 +39,7 @@ const FilterByGenre = ({ allGenres, isLoading, handleSetAPIRequest }) => {
         </div>
         <button
           type="button"
-          className="focus:outline-none bg-blue-300 text-white font-bold text-lg rounded-2xl py-2"
+          className="focus:outline-none bg-blue-400 text-white font-bold text-lg rounded-2xl py-2"
           onClick={() => handleSetAPIRequest(selectedGenres)}
         >
           Search
