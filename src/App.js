@@ -6,10 +6,10 @@ import Header from "./components/Header/Header";
 function App() {
   return (
     <>
-      <div className="container w-full mx-auto">
+      <div className="w-full mx-auto">
         <Header />
       </div>
-      <div className="container max-w-md md:max-w-3xl lg:max-w-4xl xl:max-w-6xl mx-auto h-full">
+      <div className="container max-w-lg md:max-w-4xl lg:max-w-5xl xl:max-w-7xl mx-auto h-full">
         <FilterableMovieList />
       </div>
       <Footer />

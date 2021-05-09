@@ -13,7 +13,7 @@ const MovieItem = ({ props }) => {
   return (
     <div
       key={props.id}
-      className="relative bg-white w-full md:w-1/3 lg:w-1/4 h-96 mb-8 shadow-lg rounded-2xl overflow-hidden border border-gray-300 flex flex-col space-y-2"
+      className="relative bg-white w-full md:w-1/4 lg:w-1/5 h-96 mb-8 shadow-lg rounded-2xl overflow-hidden border border-gray-300 flex flex-col space-y-2"
     >
       {/* Make sure movie object has an image, if not, replace with gray background */}
       {props.poster_path ? (
