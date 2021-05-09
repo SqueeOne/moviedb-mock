@@ -18,7 +18,7 @@ const MovieItem = ({ props }) => {
       {/* Make sure movie object has an image, if not, replace with gray background */}
       {props.poster_path ? (
         <img
-          className="h-2/3 object-cover opacity-80 hover:opacity-100"
+          className="h-2/3 object-cover opacity-80 hover:opacity-100 cursor-pointer"
           src={`https://image.tmdb.org/t/p/original${props.poster_path}`}
           alt={props.title ? props.title : props.name}
         />

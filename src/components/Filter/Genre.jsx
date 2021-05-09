@@ -6,8 +6,8 @@ const Genre = ({ id, name, handleAddSelectedGenre }) => {
   const [isSelected, setIsSelected] = useState(false);
 
   const buttonClass = !isSelected
-    ? "bg-white border border-gray-600 hover:bg-blue-400 p-3 rounded-full text-gray-500 hover:text-white text-md mt-2 mr-2"
-    : "border border-gray-600 bg-blue-400 p-3 rounded-full text-white text-md mt-2 mr-2";
+    ? "bg-white border border-gray-600 hover:bg-blue-400 p-3 rounded-full text-gray-500 hover:text-white text-md mt-2 mr-2 cursor-pointer"
+    : "border border-gray-600 bg-blue-400 p-3 rounded-full text-white text-md mt-2 mr-2 cursor-pointer";
   return (
     <div
       key={id}
